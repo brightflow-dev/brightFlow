@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-tiny: 320px;
+  --breakpoint-smaller: 410px;
+  --font-notoLight: "NotoSans";
+  --font-notoRegular: "NotoSansRegular";
+  --font-tavDrigina: "TavDrigina";
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/NotoSansGeorgian-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/NotoSansGeorgian-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TavDrigina";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/lgv-tavdrigina.ttf") format("truetype");
+}
+
+p,
+text {
+  font-feature-settings: "case" on;
+}
