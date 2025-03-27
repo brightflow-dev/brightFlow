@@ -24,7 +24,7 @@ const Society = () => {
           შემოუერთდი საზოგადოებას
         </text>
       </svg>
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-4">
         <span className="font-tavDrigina text-[28px] leading-9 bg-gradient-to-r from-[#FFFFFF] from-[0%] via-[#2F2F2F] via-[68%] to-[#2F2F2F] to-[100%] bg-clip-text text-transparent">
           ციფრული
         </span>
@@ -35,11 +35,14 @@ const Society = () => {
           საზოგადოება
         </span>
       </div>
-      <p className="text-xs text-[#fff] opacity-50 font-tavDrigina">
+      <p className="text-xs text-[#fff] opacity-50 font-tavDrigina mt-2">
         სწავლება თანამედროვე მეთოდებით, შეფასების ინოვაციური სისტემით და
         პრაქტიკული დავალებებით ქმნის ჩართულ და დინამიურ სასწავლო გარემოს და
         ეხმარება სტუდენტებს აღიჭურვონ საჭირო ცოდნითა და უნარებით
       </p>
+      <button className="bg-[#FFFFFF] mt-8">
+        <span>გაწევრიანება</span>
+      </button>
     </div>
   );
 };
