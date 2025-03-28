@@ -16,7 +16,8 @@ const Programs = () => {
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 tiny:gap-4">
-        <div className="shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] rounded-[22px] flex flex-col items-center">
+        {/* <div className="flex gap-4 flex-col"> */}
+        <div className="shadow-[inset_0_0_0_1px_rgba(255,255,255,0.1)] rounded-[22px] flex flex-col items-center flex-1">
           <div className="flex justify-end w-full pt-4 tiny:pr-4 2xl:pr-14">
             <div className="bg-[#fff] flex rounded-[26px] items-center tiny:gap-2 pc:gap-1 pl-[5px] py-[5px] tiny:w-[204px] pc:w-[234px]">
               <div className="bg-[#D5FE00] rounded-full tiny:w-8 tiny:h-8 pc:w-[42px] pc:h-[42px] flex justify-center items-center">
@@ -54,18 +55,21 @@ const Programs = () => {
           desc="სამენტორო პროგრამის ფარგლებში თქვენ იმუშავებთ რეალურ პროექტებზე, რომელითაც გაამრავალფეროვნებთ თქვენს პორტფოლიოს"
           color="#FFA500"
         />
+
         <InfoBox
           title="REACT"
           about="სამენტორო პროგრამა"
           desc="სამენტორო პროგრამის ფარგლებში თქვენ იმუშავებთ რეალურ პროექტებზე, რომელითაც გაამრავალფეროვნებთ თქვენს პორტფოლიოს"
           color="#0766FF"
         />
+
         <InfoBox
           title="UI/UX"
           about="დიზაინის კურსი"
           desc="სამენტორო პროგრამის ფარგლებში თქვენ იმუშავებთ რეალურ პროექტებზე, რომელითაც გაამრავალფეროვნებთ თქვენს პორტფოლიოს"
           color="#D5FE00"
         />
+
         <InfoBox
           title="REACT"
           about="დეველოპმენტის კურსი"
