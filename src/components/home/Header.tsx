@@ -8,13 +8,15 @@ const Header = () => {
         className="tiny:px-[14.5px] tiny:py-[16px] smaller:px-4 tiny:gap-2  rounded-2xl outline-[5px]  flex justify-between
         lg:gap-4 outline-[rgba(0,0,0,0.10)]"
       >
-        <Image
-          src="/images/brightFlow.png"
-          alt="bright flow logo"
-          width={44}
-          height={44}
-          className="block sm:hidden"
-        />
+        <div className="bg-white w-[44px] h-[44px] rounded-full flex justify-center items-center relative overflow-hidden sm:hidden">
+          <Image
+            src="/images/brightFlow.png"
+            alt="bright flow logo"
+            width={21}
+            height={24}
+            className="block  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain"
+          />
+        </div>
         <Image
           src="/images/brightFlow640.png"
           alt="bright flow logo"

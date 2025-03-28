@@ -3,9 +3,13 @@
 @theme {
   --breakpoint-tiny: 320px;
   --breakpoint-smaller: 410px;
+  --breakpoint-pc: 1440px;
   --font-notoLight: "NotoSans";
   --font-notoRegular: "NotoSansRegular";
+  --font-notoMedium: "NotoSansMedium";
   --font-tavDrigina: "TavDrigina";
+  --font-spaceGroteskMedium: "SpaceGroteskMedium";
+  --font-darumadropRegular: "DarumadropRegular";
 }
 
 @font-face {
@@ -25,11 +29,35 @@
 }
 
 @font-face {
+  font-family: "NotoSansMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/NotoSansGeorgian-Medium.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "TavDrigina";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("/fonts/lgv-tavdrigina.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGroteskMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DarumadropRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/DarumadropOne-Regular.ttf") format("truetype");
 }
 
 p,
