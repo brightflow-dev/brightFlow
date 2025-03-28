@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { NavLink } from "./NavLink";
+import { NavLink } from "../UI/NavLink";
 
 const Header = () => {
   return (
