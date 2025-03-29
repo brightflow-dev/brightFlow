@@ -10,6 +10,7 @@
   --font-tavDrigina: "TavDrigina";
   --font-spaceGroteskMedium: "SpaceGroteskMedium";
   --font-darumadropRegular: "DarumadropRegular";
+  --font-brainMeltRegular: "GeoBrainMeltRegular";
 }
 
 @font-face {
@@ -58,6 +59,14 @@
   font-weight: 400;
   font-display: swap;
   src: url("/fonts/DarumadropOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GeoBrainMeltRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/GeoBrainMelt.otf") format("opentype");
 }
 
 p,

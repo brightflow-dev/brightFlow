@@ -1,5 +1,6 @@
 import InfoBox from "../UI/InfoBox";
 import Mentor from "../Design/Mentor";
+import Profession from "../Design/Profession";
 
 const Programs = () => {
   return (
@@ -46,6 +47,8 @@ const Programs = () => {
           desc="სამენტორო პროგრამის ფარგლებში თქვენ იმუშავებთ რეალურ პროექტებზე, რომელითაც გაამრავალფეროვნებთ თქვენს პორტფოლიოს"
           color="#5865F2"
         />
+
+        <Profession />
       </div>
       <div className="tiny:hidden md:flex gap-4 xl:px-[41px] pc:px-[141px] 2xl:px-[151px]">
         <div className="flex gap-4 flex-col">
@@ -76,6 +79,7 @@ const Programs = () => {
             desc="სამენტორო პროგრამის ფარგლებში თქვენ იმუშავებთ რეალურ პროექტებზე, რომელითაც გაამრავალფეროვნებთ თქვენს პორტფოლიოს"
             color="#D5FE00"
           />
+          <Profession />
         </div>
       </div>
     </div>
